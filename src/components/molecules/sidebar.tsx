@@ -84,8 +84,7 @@ export default function Sidebar(){
                 }
                }}
              >
-               {theme == "light" && <MoonIcon className="size-5" />}
-               {theme == "dark" && <SunIcon className="size-5" />}
+               {theme == "light" ? <MoonIcon className="size-5" /> : <SunIcon className="size-5" />}
              </Button>
            </TooltipTrigger>
            <TooltipContent side="right" sideOffset={5}>
