@@ -32,7 +32,7 @@ export default function Sidebar(){
                 className="rounded-lg"
                 aria-label="Settings"
                 onClick={()=>{
-                    window.open("https://github.com/hrushikeshkothem")
+                    window.open("https://github.com/hrushikeshkothem/salaryscope")
                 }}
               >
                 <Github className="size-5" />
